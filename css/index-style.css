@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url(../fonts/calibri-regular.ttf);
+}
+body{
+    font-family: 'Calibri';
+}
+.s_cont_fluid{
+    height: 650px;
+}
+.s_form > div{
+    font-size: small;   
+}
+.col-7{
+    background: #fff;
+}
+.col-5{
+    background: #442460;
+    background-image: url("../img/mask.svg");
+}
+.mb-3 > input[type="email"], .mb-3 > input[type="password"]{
+    font-size: small;
+}
+.mb-3 > input[type="email"]:focus, .mb-3 > input[type="password"]:focus{
+    box-shadow: none;
+    width: 400px;
+    height: 32px;
+}
+h1, p, a{
+    color: #442460;
+}
+.form-check-input:focus{
+    background: #FFB900;
+}
+a:hover{
+    color: #FFB900;
+}
+.btn{
+    color: #000;
+}
+.btn:hover{
+    background: #442460 !important;
+    color: #FFB900;
+}
+@font-face {
+    font-family: 'Calibri-bold';
+    src: url(../fonts/calibri-bold.ttf);
+}
+h1{
+    font-family: 'Calibri-bold';
+}
+.s_para{
+    padding-left: 70px;
+    font-size: smaller;
+}
+.s_para2{
+    padding-top: 100px;
+    font-size: smaller;
+}
+.s_cont2{
+    padding-top: 150px !important;
+}
+.s_cont2 > h1, .s_cont2 > .container  > p{
+    color: #fff;
+}
+.s_button{
+    color: #FFB900 !important;
+}
+.s_button:hover{
+    background: #FFB900 !important;
+    color: #000 !important;
+}
+.mb-3{
+    position: relative;
+}
+.s_pass{
+    position: absolute;
+    top: 0px;
+    left: 240px;
+}

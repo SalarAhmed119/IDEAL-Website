@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url(../fonts/calibri-regular.ttf);
+}
+body{
+    font-family: 'Calibri';
+}
+@font-face {
+    font-family: 'Calibri-bold';
+    src: url(../fonts/calibri-bold.ttf);
+}
+h1{
+    font-family: 'Calibri-bold';
+}
+.s_cont_fluid{
+    height: 650px;
+}
+.col-5{
+    background: #442460;
+    background-image: url("../img/mask.svg");
+}
+.col-7{
+    background: #fff;
+    padding-top: 60px;
+}
+.s_col-5 > h1, .container > p{
+    color: #fff;
+}
+.s_col-5{
+    padding-top: 150px;
+}
+.s_button{
+    width: 120px;
+}
+.s_col-7 :last-child, .s_col-7 > h1, p{
+    color: #442460;
+}
+.s_container, .mb-3 > input[type="full_name"], .mb-3 > input[type="email"], .mb-3 > input[type="password"]{
+    font-size: small;
+}
+.mb-3 > input[type="full_name"]:focus, .mb-3 > input[type="email"]:focus, .mb-3 > input[type="password"]:focus{
+    box-shadow: none;
+    width: 400px;
+    height: 32px;
+}
+.s_mb-3 :nth-child(3){
+    font-size:x-small;
+}
+.s_mb-3{
+    position: relative;
+}
+.show_img{
+    position: absolute;
+    top: 0px;
+    left: 290px;
+}
+.cancel-btn{
+    outline: #442460 !important;
+    color: #442460;
+}
+.cancel-btn:hover, .next-btn:hover{
+    background: #442460;
+    color: #FFB900;
+}
+.next-btn{
+    background: #FFB900;
+    color: #442460;
+}

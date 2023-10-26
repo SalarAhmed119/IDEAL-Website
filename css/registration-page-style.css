@@ -12,6 +12,9 @@ body{
 h1{
     font-family: 'Calibri-bold';
 }
+.s_container > a:hover{
+    color: #FFB900;
+}
 .s_cont_fluid{
     height: 650px;
 }
@@ -58,8 +61,14 @@ h1{
     outline: #442460 !important;
     color: #442460;
 }
-.cancel-btn:hover, .next-btn:hover{
+.cancel-btn:hover{
     background: #442460;
+    color: #FFB900;
+}
+.next-btn:hover{
+    background: #442460;
+}
+.next-btn:hover .a_btn{
     color: #FFB900;
 }
 .next-btn{

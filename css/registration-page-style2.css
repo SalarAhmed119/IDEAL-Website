@@ -69,3 +69,6 @@ h1{
 .form-check-input:focus{
     background: #FFB900;
 }
+.s_container > a:hover{
+    color: #FFB900;
+}
